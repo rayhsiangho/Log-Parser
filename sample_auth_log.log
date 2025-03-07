@@ -1,0 +1,300 @@
+2025-01-03T20:22:00.501710-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-03T20:22:00.503635-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-951) opened.
+2025-01-03T20:22:00.530718-05:00 kali systemd-logind[551]: New session c1 of user lightdm.
+2025-01-03T20:22:00.585461-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=126) by lightdm(uid=0)
+2025-01-03T20:22:00.591842-05:00 kali systemd-logind[551]: New session 1 of user lightdm.
+2025-01-03T20:22:00.764600-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-03T20:22:00.765919-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-951) opened.
+2025-01-03T20:22:15.961585-05:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2025-01-03T20:22:15.962095-05:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2025-01-03T20:22:15.986012-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-03T20:22:15.986098-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-951) opened.
+2025-01-03T20:22:15.986598-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-03T20:22:15.986650-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+2025-01-03T20:22:15.989875-05:00 kali systemd-logind[551]: Removed session c1.
+2025-01-03T20:22:15.989929-05:00 kali lightdm: pam_unix(lightdm:session): session opened for user student(uid=1000) by student(uid=0)
+2025-01-03T20:22:15.990713-05:00 kali lightdm: pam_systemd(lightdm:session): New sd-bus connection (system-bus-pam-systemd-1113) opened.
+2025-01-03T20:22:16.014740-05:00 kali systemd-logind[551]: New session 2 of user student.
+2025-01-03T20:22:16.023865-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user student(uid=1000) by student(uid=0)
+2025-01-03T20:22:16.025361-05:00 kali systemd-logind[551]: New session 3 of user student.
+2025-01-03T20:22:16.157614-05:00 kali lightdm: gkr-pam: unlocked login keyring
+2025-01-03T20:22:17.990631-05:00 kali polkitd[549]: Registered Authentication Agent for unix-session:2 (system bus name :1.52 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale C.UTF-8)
+2025-01-03T20:22:26.325290-05:00 kali systemd-logind[551]: Removed session 1.
+2025-01-03T20:24:17.982891-05:00 kali sudo:  student : TTY=pts/0 ; PWD=/home/student/Desktop ; USER=root ; COMMAND=/usr/sbin/openvpn vpn_file.ovpn
+2025-01-03T20:24:17.984182-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1000)
+2025-01-03T20:25:01.359142-05:00 kali CRON[3480]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-03T20:25:01.362709-05:00 kali CRON[3480]: pam_unix(cron:session): session closed for user root
+2025-01-03T20:28:44.807763-05:00 kali sudo:  student : TTY=pts/2 ; PWD=/home/student/Desktop ; USER=root ; COMMAND=/usr/bin/nmap -p 23 localhost
+2025-01-03T20:28:44.810840-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1000)
+2025-01-03T20:28:44.934362-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-01-03T20:35:01.383473-05:00 kali CRON[8573]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-03T20:35:01.391861-05:00 kali CRON[8573]: pam_unix(cron:session): session closed for user root
+2025-01-03T20:39:01.396607-05:00 kali CRON[10580]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-03T20:39:01.400622-05:00 kali CRON[10580]: pam_unix(cron:session): session closed for user root
+2025-01-03T20:45:01.416751-05:00 kali CRON[13746]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-03T20:45:01.418016-05:00 kali CRON[13746]: pam_unix(cron:session): session closed for user root
+2025-01-03T20:55:01.428523-05:00 kali CRON[18779]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-03T20:55:01.436761-05:00 kali CRON[18779]: pam_unix(cron:session): session closed for user root
+2025-01-03T20:57:32.319833-05:00 kali sudo:  student : TTY=pts/5 ; PWD=/home/student/Desktop ; USER=root ; COMMAND=/usr/bin/nmap -O 10.129.6.151
+2025-01-03T20:57:32.323086-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1000)
+2025-01-03T20:57:59.611143-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-01-03T20:58:56.742757-05:00 kali sudo:  student : TTY=pts/5 ; PWD=/home/student/Desktop ; USER=root ; COMMAND=/usr/bin/nmap -A 10.129.6.151
+2025-01-03T20:58:56.750079-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1000)
+2025-01-03T20:59:30.913479-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-01-03T21:05:01.466238-05:00 kali CRON[23697]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-03T21:05:01.478524-05:00 kali CRON[23697]: pam_unix(cron:session): session closed for user root
+2025-01-03T21:09:01.485547-05:00 kali CRON[25626]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-03T21:09:01.486062-05:00 kali CRON[25626]: pam_unix(cron:session): session closed for user root
+2025-01-03T21:12:40.095236-05:00 kali systemd-logind[536]: New seat seat0.
+2025-01-03T21:12:40.095239-05:00 kali systemd-logind[536]: Watching system buttons on /dev/input/event2 (Power Button)
+2025-01-03T21:12:40.095242-05:00 kali systemd-logind[536]: Watching system buttons on /dev/input/event3 (Sleep Button)
+2025-01-03T21:12:40.095245-05:00 kali systemd-logind[536]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2025-01-03T21:12:40.095297-05:00 kali polkitd[532]: Loading rules from directory /etc/polkit-1/rules.d
+2025-01-03T21:12:40.095301-05:00 kali polkitd[532]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-01-03T21:12:40.095303-05:00 kali polkitd[532]: Finished loading, compiling and executing 7 rules
+2025-01-03T21:12:40.095317-05:00 kali polkitd[532]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-01-03T21:12:41.416081-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-03T21:12:41.421926-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-841) opened.
+2025-01-03T21:12:41.464700-05:00 kali systemd-logind[536]: New session c1 of user lightdm.
+2025-01-03T21:12:41.504703-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=126) by lightdm(uid=0)
+2025-01-03T21:12:41.508644-05:00 kali systemd-logind[536]: New session 1 of user lightdm.
+2025-01-03T21:12:41.777625-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-03T21:12:41.779662-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-841) opened.
+2025-01-03T21:14:10.491189-05:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2025-01-03T21:14:10.492775-05:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2025-01-03T21:14:10.529809-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-03T21:14:10.530362-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-841) opened.
+2025-01-03T21:14:10.530581-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-03T21:14:10.530938-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+2025-01-03T21:14:10.533897-05:00 kali systemd-logind[536]: Removed session c1.
+2025-01-03T21:14:10.536204-05:00 kali lightdm: pam_unix(lightdm:session): session opened for user student(uid=1000) by student(uid=0)
+2025-01-03T21:14:10.536668-05:00 kali lightdm: pam_systemd(lightdm:session): New sd-bus connection (system-bus-pam-systemd-1047) opened.
+2025-01-03T21:14:10.567113-05:00 kali systemd-logind[536]: New session 2 of user student.
+2025-01-03T21:14:10.805395-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user student(uid=1000) by student(uid=0)
+2025-01-03T21:14:10.807284-05:00 kali systemd-logind[536]: New session 3 of user student.
+2025-01-03T21:14:10.946721-05:00 kali lightdm: gkr-pam: unlocked login keyring
+2025-01-03T21:14:12.801124-05:00 kali polkitd[532]: Registered Authentication Agent for unix-session:2 (system bus name :1.53 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale C.UTF-8)
+2025-01-03T21:14:20.792411-05:00 kali systemd-logind[536]: Removed session 1.
+2025-01-03T21:15:23.005119-05:00 kali systemd-logind[531]: New seat seat0.
+2025-01-03T21:15:23.005121-05:00 kali systemd-logind[531]: Watching system buttons on /dev/input/event1 (Power Button)
+2025-01-03T21:15:23.005123-05:00 kali systemd-logind[531]: Watching system buttons on /dev/input/event3 (Sleep Button)
+2025-01-03T21:15:23.005129-05:00 kali systemd-logind[531]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2025-01-03T21:15:22.996505-05:00 kali polkitd[520]: Loading rules from directory /etc/polkit-1/rules.d
+2025-01-03T21:15:22.996569-05:00 kali polkitd[520]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-01-03T21:15:23.017930-05:00 kali polkitd[520]: Finished loading, compiling and executing 7 rules
+2025-01-03T21:15:23.022989-05:00 kali polkitd[520]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-01-03T21:15:24.488958-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-03T21:15:24.493956-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-882) opened.
+2025-01-03T21:15:24.519599-05:00 kali systemd-logind[531]: New session c1 of user lightdm.
+2025-01-03T21:15:24.540293-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=126) by lightdm(uid=0)
+2025-01-03T21:15:24.541818-05:00 kali systemd-logind[531]: New session 1 of user lightdm.
+2025-01-03T21:15:24.740793-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-03T21:15:24.740821-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-882) opened.
+2025-01-03T21:15:29.850766-05:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2025-01-03T21:15:29.851815-05:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2025-01-03T21:15:29.891349-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-03T21:15:29.891570-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-882) opened.
+2025-01-03T21:15:29.892763-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-03T21:15:29.892826-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+2025-01-03T21:15:29.895628-05:00 kali systemd-logind[531]: Removed session c1.
+2025-01-03T21:15:29.899725-05:00 kali lightdm: pam_unix(lightdm:session): session opened for user student(uid=1000) by student(uid=0)
+2025-01-03T21:15:29.900115-05:00 kali lightdm: pam_systemd(lightdm:session): New sd-bus connection (system-bus-pam-systemd-1047) opened.
+2025-01-03T21:15:29.928489-05:00 kali systemd-logind[531]: New session 2 of user student.
+2025-01-03T21:15:29.938624-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user student(uid=1000) by student(uid=0)
+2025-01-03T21:15:29.939726-05:00 kali systemd-logind[531]: New session 3 of user student.
+2025-01-03T21:15:30.104228-05:00 kali lightdm: gkr-pam: unlocked login keyring
+2025-01-03T21:15:32.147834-05:00 kali polkitd[520]: Registered Authentication Agent for unix-session:2 (system bus name :1.55 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale C.UTF-8)
+2025-01-03T21:15:40.081639-05:00 kali systemd-logind[531]: Removed session 1.
+2025-01-03T21:17:01.846454-05:00 kali CRON[2795]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-03T21:17:01.852579-05:00 kali CRON[2795]: pam_unix(cron:session): session closed for user root
+2025-01-03T21:17:09.941587-05:00 kali sudo:  student : TTY=pts/0 ; PWD=/home/student/Downloads ; USER=root ; COMMAND=/usr/sbin/openvpn vpn2.ovpn
+2025-01-03T21:17:09.942410-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1000)
+2025-01-03T21:25:01.865843-05:00 kali CRON[7043]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-03T21:25:01.868285-05:00 kali CRON[7043]: pam_unix(cron:session): session closed for user root
+2025-01-03T21:35:01.879644-05:00 kali CRON[12171]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-03T21:35:01.881506-05:00 kali CRON[12171]: pam_unix(cron:session): session closed for user root
+2025-01-06T13:03:49.450418-05:00 kali polkitd[548]: Loading rules from directory /etc/polkit-1/rules.d
+2025-01-06T13:03:49.450421-05:00 kali polkitd[548]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-01-06T13:03:49.450430-05:00 kali polkitd[548]: Finished loading, compiling and executing 7 rules
+2025-01-06T13:03:49.450451-05:00 kali polkitd[548]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-01-06T13:03:49.385723-05:00 kali systemd-logind[550]: New seat seat0.
+2025-01-06T13:03:49.433716-05:00 kali systemd-logind[550]: Watching system buttons on /dev/input/event1 (Power Button)
+2025-01-06T13:03:49.433803-05:00 kali systemd-logind[550]: Watching system buttons on /dev/input/event2 (Sleep Button)
+2025-01-06T13:03:49.472041-05:00 kali systemd-logind[550]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2025-01-06T13:03:51.893714-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-06T13:03:51.895906-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-906) opened.
+2025-01-06T13:03:51.934169-05:00 kali systemd-logind[550]: New session c1 of user lightdm.
+2025-01-06T13:03:51.991387-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=126) by lightdm(uid=0)
+2025-01-06T13:03:51.995443-05:00 kali systemd-logind[550]: New session 1 of user lightdm.
+2025-01-06T13:03:52.344836-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-06T13:03:52.347479-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-906) opened.
+2025-01-06T13:05:01.838873-05:00 kali CRON[1111]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T13:05:01.854907-05:00 kali CRON[1111]: pam_unix(cron:session): session closed for user root
+2025-01-06T13:09:01.863058-05:00 kali CRON[1122]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T13:09:01.863878-05:00 kali CRON[1122]: pam_unix(cron:session): session closed for user root
+2025-01-06T13:15:01.876767-05:00 kali CRON[1175]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T13:15:01.881165-05:00 kali CRON[1175]: pam_unix(cron:session): session closed for user root
+2025-01-06T13:17:01.890144-05:00 kali CRON[1233]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T13:17:01.903929-05:00 kali CRON[1233]: pam_unix(cron:session): session closed for user root
+2025-01-06T13:25:01.919852-05:00 kali CRON[1256]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T13:25:01.931463-05:00 kali CRON[1256]: pam_unix(cron:session): session closed for user root
+2025-01-06T13:35:01.968971-05:00 kali CRON[1276]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T13:35:01.980981-05:00 kali CRON[1276]: pam_unix(cron:session): session closed for user root
+2025-01-06T13:39:01.992770-05:00 kali CRON[1337]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T13:39:01.999758-05:00 kali CRON[1337]: pam_unix(cron:session): session closed for user root
+2025-01-06T13:45:01.015980-05:00 kali CRON[1347]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T13:45:01.029014-05:00 kali CRON[1347]: pam_unix(cron:session): session closed for user root
+2025-01-06T13:48:09.424976-05:00 kali lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=student
+2025-01-06T13:48:16.440995-05:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2025-01-06T13:48:16.441686-05:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2025-01-06T13:48:16.467007-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-06T13:48:16.467250-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-906) opened.
+2025-01-06T13:48:16.467713-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-06T13:48:16.468100-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+2025-01-06T13:48:16.470344-05:00 kali systemd-logind[550]: Removed session c1.
+2025-01-06T13:48:16.471129-05:00 kali lightdm: pam_unix(lightdm:session): session opened for user student(uid=1000) by student(uid=0)
+2025-01-06T13:48:16.471463-05:00 kali lightdm: pam_systemd(lightdm:session): New sd-bus connection (system-bus-pam-systemd-1353) opened.
+2025-01-06T13:48:16.496536-05:00 kali systemd-logind[550]: New session 10 of user student.
+2025-01-06T13:48:16.515661-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user student(uid=1000) by student(uid=0)
+2025-01-06T13:48:16.516589-05:00 kali systemd-logind[550]: New session 11 of user student.
+2025-01-06T13:48:16.641950-05:00 kali lightdm: gkr-pam: unlocked login keyring
+2025-01-06T13:48:18.076472-05:00 kali polkitd[548]: Registered Authentication Agent for unix-session:10 (system bus name :1.60 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale C.UTF-8)
+2025-01-06T13:48:26.650059-05:00 kali systemd-logind[550]: Removed session 1.
+2025-01-06T13:50:05.482495-05:00 kali lightdm: pam_unix(lightdm:session): session closed for user student
+2025-01-06T13:50:05.482888-05:00 kali lightdm: pam_systemd(lightdm:session): New sd-bus connection (system-bus-pam-systemd-1353) opened.
+2025-01-06T13:50:05.488686-05:00 kali systemd-logind[550]: Session 10 logged out. Waiting for processes to exit.
+2025-01-06T13:50:05.492019-05:00 kali polkitd[548]: Unregistered Authentication Agent for unix-session:10 (system bus name :1.60, object path /org/mate/PolicyKit1/AuthenticationAgent, locale C.UTF-8) (disconnected from bus)
+2025-01-06T13:50:06.069199-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-06T13:50:06.069424-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-2908) opened.
+2025-01-06T13:50:06.074747-05:00 kali systemd-logind[550]: New session c2 of user lightdm.
+2025-01-06T13:50:06.103622-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=126) by lightdm(uid=0)
+2025-01-06T13:50:06.105176-05:00 kali systemd-logind[550]: New session 12 of user lightdm.
+2025-01-06T13:50:06.187203-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-06T13:50:06.187333-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-2908) opened.
+2025-01-06T13:50:13.312086-05:00 kali lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=student
+2025-01-06T13:50:18.995691-05:00 kali lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=student
+2025-01-06T13:50:22.732141-05:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2025-01-06T13:50:22.732220-05:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2025-01-06T13:50:22.756163-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-06T13:50:22.756400-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-2908) opened.
+2025-01-06T13:50:22.756909-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-06T13:50:22.757232-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+2025-01-06T13:50:22.760550-05:00 kali systemd-logind[550]: Removed session c2.
+2025-01-06T13:50:22.760596-05:00 kali lightdm: pam_unix(lightdm:session): session opened for user student(uid=1000) by student(uid=0)
+2025-01-06T13:50:22.760616-05:00 kali lightdm: pam_systemd(lightdm:session): New sd-bus connection (system-bus-pam-systemd-3004) opened.
+2025-01-06T13:50:22.767449-05:00 kali systemd-logind[550]: New session 13 of user student.
+2025-01-06T13:50:22.787976-05:00 kali lightdm: gkr-pam: unlocked login keyring
+2025-01-06T13:50:23.794849-05:00 kali polkitd[548]: Registered Authentication Agent for unix-session:13 (system bus name :1.115 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale C.UTF-8)
+2025-01-06T13:50:32.824378-05:00 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2025-01-06T13:50:32.848062-05:00 kali systemd-logind[550]: Removed session 12.
+2025-01-06T13:55:01.045557-05:00 kali CRON[5710]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T13:55:01.051576-05:00 kali CRON[5710]: pam_unix(cron:session): session closed for user root
+2025-01-06T13:56:35.299705-05:00 kali sudo: pam_unix(sudo:auth): authentication failure; logname=student uid=1000 euid=0 tty=/dev/pts/0 ruser=student rhost=  user=student
+2025-01-06T13:56:39.330293-05:00 kali sudo:  student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2025-01-06T13:56:39.330775-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1000)
+2025-01-06T13:59:53.207066-05:00 kali sudo:  student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/ssh root@10.0.2.8
+2025-01-06T13:59:53.207908-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1000)
+2025-01-06T13:59:53.214861-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-01-06T14:00:03.642230-05:00 kali sudo:  student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/ssh root@127.0.0.1
+2025-01-06T14:00:03.647257-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1000)
+2025-01-06T14:00:03.647697-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-01-06T14:00:46.262915-05:00 kali sudo:  student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2025-01-06T14:00:46.263336-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1000)
+2025-01-06T14:01:11.402473-05:00 kali sudo:  student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+2025-01-06T14:01:11.403857-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1000)
+2025-01-06T14:01:11.455357-05:00 kali sshd[8771]: Server listening on 0.0.0.0 port 22.
+2025-01-06T14:01:11.455578-05:00 kali sshd[8771]: Server listening on :: port 22.
+2025-01-06T14:01:11.456462-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-01-06T14:01:28.956337-05:00 kali sshd[8839]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.8  user=root
+2025-01-06T14:01:31.063600-05:00 kali sshd[8839]: Failed password for root from 10.0.2.8 port 46840 ssh2
+2025-01-06T14:01:36.476865-05:00 kali sshd[8839]: Failed password for root from 10.0.2.8 port 46840 ssh2
+2025-01-06T14:01:42.943343-05:00 kali sshd[8839]: Failed password for root from 10.0.2.8 port 46840 ssh2
+2025-01-06T14:01:43.837970-05:00 kali sshd[8839]: Connection closed by authenticating user root 10.0.2.8 port 46840 [preauth]
+2025-01-06T14:01:43.838188-05:00 kali sshd[8839]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.8  user=root
+2025-01-06T14:01:53.551212-05:00 kali sudo:  student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2025-01-06T14:01:53.552588-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1000)
+2025-01-06T14:05:01.102311-05:00 kali CRON[10614]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T14:05:01.107864-05:00 kali CRON[10614]: pam_unix(cron:session): session closed for user root
+2025-01-06T14:09:01.117696-05:00 kali CRON[12584]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T14:09:01.118935-05:00 kali CRON[12584]: pam_unix(cron:session): session closed for user root
+2025-01-06T14:12:09.731235-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-06T14:12:09.731695-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-14105) opened.
+2025-01-06T14:12:09.741889-05:00 kali systemd-logind[550]: New session c3 of user lightdm.
+2025-01-06T14:12:09.779733-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=126) by lightdm(uid=0)
+2025-01-06T14:12:09.784039-05:00 kali systemd-logind[550]: New session 17 of user lightdm.
+2025-01-06T14:12:09.895384-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-06T14:12:09.895409-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-14105) opened.
+2025-01-06T14:15:01.127184-05:00 kali CRON[15618]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T14:15:01.128555-05:00 kali CRON[15618]: pam_unix(cron:session): session closed for user root
+2025-01-06T14:17:01.135190-05:00 kali CRON[16582]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T14:17:01.137828-05:00 kali CRON[16582]: pam_unix(cron:session): session closed for user root
+2025-01-06T14:20:36.047139-05:00 kali lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:1 ruser= rhost=  user=student
+2025-01-06T14:20:38.707869-05:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2025-01-06T14:20:38.708765-05:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2025-01-06T14:20:38.953226-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-06T14:20:38.953457-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-14105) opened.
+2025-01-06T14:20:38.955679-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-06T14:20:38.955756-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+2025-01-06T14:20:38.959633-05:00 kali systemd-logind[550]: Removed session c3.
+2025-01-06T14:20:49.120972-05:00 kali systemd-logind[550]: Removed session 17.
+2025-01-06T14:25:01.162940-05:00 kali CRON[20541]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T14:25:01.163798-05:00 kali CRON[20541]: pam_unix(cron:session): session closed for user root
+2025-01-06T14:35:01.236544-05:00 kali CRON[25348]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T14:35:01.242994-05:00 kali CRON[25348]: pam_unix(cron:session): session closed for user root
+2025-01-06T14:37:02.627228-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-06T14:37:02.627682-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-26339) opened.
+2025-01-06T14:37:02.663260-05:00 kali systemd-logind[550]: New session c4 of user lightdm.
+2025-01-06T14:37:02.683007-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=126) by lightdm(uid=0)
+2025-01-06T14:37:02.684651-05:00 kali systemd-logind[550]: New session 22 of user lightdm.
+2025-01-06T14:37:02.775516-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-06T14:37:02.775550-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-26339) opened.
+2025-01-06T14:39:01.258081-05:00 kali CRON[27467]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T14:39:01.259155-05:00 kali CRON[27467]: pam_unix(cron:session): session closed for user root
+2025-01-06T14:44:43.232674-05:00 kali lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:1 ruser= rhost=  user=student
+2025-01-06T14:44:45.631487-05:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2025-01-06T14:44:45.632366-05:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2025-01-06T14:44:45.872582-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-06T14:44:45.872660-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-26339) opened.
+2025-01-06T14:44:45.874047-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-06T14:44:45.874087-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+2025-01-06T14:44:45.877955-05:00 kali systemd-logind[550]: Removed session c4.
+2025-01-06T14:44:56.084390-05:00 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2025-01-06T14:44:56.110416-05:00 kali systemd-logind[550]: Removed session 22.
+2025-01-06T14:45:01.322180-05:00 kali CRON[30392]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T14:45:01.325132-05:00 kali CRON[30392]: pam_unix(cron:session): session closed for user root
+2025-01-06T14:55:01.397855-05:00 kali CRON[35209]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T14:55:01.404846-05:00 kali CRON[35209]: pam_unix(cron:session): session closed for user root
+2025-01-06T14:59:41.618292-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-06T14:59:41.618695-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-37464) opened.
+2025-01-06T14:59:41.649065-05:00 kali systemd-logind[550]: New session c5 of user lightdm.
+2025-01-06T14:59:41.664419-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=126) by lightdm(uid=0)
+2025-01-06T14:59:41.666217-05:00 kali systemd-logind[550]: New session 26 of user lightdm.
+2025-01-06T14:59:41.814979-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=126) by (uid=0)
+2025-01-06T14:59:41.816756-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-37464) opened.
+2025-01-06T15:05:01.555074-05:00 kali CRON[40169]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T15:05:01.564075-05:00 kali CRON[40169]: pam_unix(cron:session): session closed for user root
+2025-01-06T15:09:01.677113-05:00 kali CRON[42137]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T15:09:01.678379-05:00 kali CRON[42137]: pam_unix(cron:session): session closed for user root
+2025-01-06T15:13:21.802041-05:00 kali lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:1 ruser= rhost=  user=student
+2025-01-06T15:13:24.443310-05:00 kali lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:1 ruser= rhost=  user=student
+2025-01-06T15:13:30.392815-05:00 kali lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:1 ruser= rhost=  user=student
+2025-01-06T15:13:33.920977-05:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2025-01-06T15:13:33.921740-05:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2025-01-06T15:13:34.247175-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-06T15:13:34.247246-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): New sd-bus connection (system-bus-pam-systemd-37464) opened.
+2025-01-06T15:13:34.247672-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-01-06T15:13:34.247738-05:00 kali lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+2025-01-06T15:13:34.250433-05:00 kali systemd-logind[550]: Removed session c5.
+2025-01-06T15:13:44.341822-05:00 kali systemd-logind[550]: Removed session 26.
+2025-01-06T15:15:01.696626-05:00 kali CRON[45060]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T15:15:01.699436-05:00 kali CRON[45060]: pam_unix(cron:session): session closed for user root
+2025-01-06T15:17:01.706379-05:00 kali CRON[46098]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T15:17:01.711895-05:00 kali CRON[46098]: pam_unix(cron:session): session closed for user root
+2025-01-06T15:25:01.725189-05:00 kali CRON[49965]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T15:25:01.729504-05:00 kali CRON[49965]: pam_unix(cron:session): session closed for user root
+2025-01-06T15:35:01.762992-05:00 kali CRON[54862]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T15:35:01.768949-05:00 kali CRON[54862]: pam_unix(cron:session): session closed for user root
+2025-01-06T15:39:01.780021-05:00 kali CRON[56832]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-01-06T15:39:01.785345-05:00 kali CRON[56832]: pam_unix(cron:session): session closed for user root
+2025-01-06T15:42:13.880258-05:00 kali sudo:  student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=./move_log_file.sh
+2025-01-06T15:42:13.881077-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1000)
